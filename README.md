@@ -8,7 +8,7 @@ npm install && node #arq.name -a 'param'
 
 Example:
 
-node promise(geo).js -a ''
+node promise(geo).js -a 'IBM Tutoia'
 
 node promise(github).js -a 'fuchien'
 ```
