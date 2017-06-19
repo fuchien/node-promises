@@ -31,11 +31,12 @@ rp.get(geocodeUrl)
 
         let weatherUrl = `https://api.forecast.io/forecast/4a04d1c42fd9d32c97a2c291a32d5e2d/${lat},${lng}`
         console.log(resp.results[0].formatted_address)
-        return axios.get(weatherUrl)
+        return rp.get(weatherUrl)
     })
     .then((response) => {
-        let temperature = response.data.currently.temperature
-        let apparentTemperature = response.data.currently.apparentTemperature
+        let resp = JSON.parse(response)
+        let temperature = resp.currently.temperature
+        let apparentTemperature = resp.currently.apparentTemperature
 
         let tempCelsius = ( temperature - 32) * 5/9
         let apparentCelsius = (apparentTemperature - 32) * 5/9
