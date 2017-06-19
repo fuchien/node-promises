@@ -1,6 +1,6 @@
 ## How to use
 
-git clone https://github.com/fuchien/node-promises.git
+git clone https://github.com/fuchien/promise.git
 ```
 cd node-promises
 
