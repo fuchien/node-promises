@@ -8,5 +8,5 @@ npm install && node #arq.name -a 'param'
 
 Example:
 
-node promises(github).js -a 'fuchien'
+node promise(github).js -a 'fuchien'
 ```
