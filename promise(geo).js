@@ -26,7 +26,6 @@ rp.get(geocodeUrl)
         }
 
         let resp = JSON.parse(response)
-        console.log(resp)
         let lat = resp.results[0].geometry.location.lat
         let lng = resp.results[0].geometry.location.lng
 
