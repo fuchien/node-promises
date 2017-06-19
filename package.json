@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fuchien/node-promises.git"
+    "url": "git+https://github.com/fuchien/promise.git"
   },
   "author": "Chiien",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fuchien/node-promises/issues"
+    "url": "https://github.com/fuchien/promise/issues"
   },
-  "homepage": "https://github.com/fuchien/node-promises#readme",
+  "homepage": "https://github.com/fuchien/promise#readme",
   "dependencies": {
     "request-promise": "^4.2.1",
     "yargs": "^8.0.2"
