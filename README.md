@@ -1,6 +1,6 @@
 ## How to use
 
-git clone https://github.com/fuchien/promise.git
+git clone https://github.com/fuchien/promise-async.git
 ```
 cd node-promises
 
